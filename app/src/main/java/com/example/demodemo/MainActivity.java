@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Fetch failed",
                                     Toast.LENGTH_SHORT).show();
                         }
+                        //welcome
                         displayWelcomeMessage();
                     }
                 });
